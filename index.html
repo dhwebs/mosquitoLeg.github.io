@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>大海的个人博客</title>
+  <script src="vue.js"></script>
+</head>
+
+<body>
+  <div id="app">{{this.name}}</div>
+</body>
+<script>
+  var vm = new Vue({
+    el: "#app",
+    data: {
+      name="张三",
+      age=16
+    },
+    methods: {}
+  })
+</script>
+
+</html>
